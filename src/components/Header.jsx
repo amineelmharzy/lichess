@@ -18,17 +18,18 @@ function Header() {
                         </div>
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                             <div className="flex shrink-0 items-center">
-                                <span className="text-2xl">Lichess.org</span>
+                                <span className="text-3xl text-gray-200">Lichess</span>
+                                <span className="text-3xl text-zinc-400">.org</span>
                             </div>
-                            <div className="hidden sm:ml-6 sm:block">
+                            <div className="hidden sm:ml-5 sm:block">
                                 <div className="flex space-x-2">
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300" aria-current="page">Play</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Puzzles</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Learn</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Watch</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Community</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Tools</a>
-                                    <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Donate</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400" aria-current="page">Play</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Puzzles</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Learn</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Watch</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Community</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Tools</a>
+                                    <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-400 hover:text-white">Donate</a>
                                 </div>
                             </div>
                         </div>
@@ -39,11 +40,11 @@ function Header() {
                                 </svg>
 
                                 <input
-                                    className="w-full bg-transparent placeholder:text-slate-400 text-gray-200 text-sm rounded-md pl-10 pr-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+                                    className="w-full bg-transparent placeholder:text-slate-400 text-gray-200 text-md rounded-md pl-10 pr-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
                                     placeholder="Search..."
                                 />
                             </div>
-                            <a href="#" className="rounded-md px-2 py-1 text-sm font-medium text-gray-300 hover:text-white">Login</a>
+                            <a href="#" className="rounded-md px-2 py-5 text-md font-normal text-gray-300 hover:text-white">Login</a>
                         </div>
                     </div>
                 </div>

@@ -1,19 +1,21 @@
 import { useState } from "react";
 import Board from "./Borad";
+import ModeSelect from "./ModeSelect";
+import './Playground.css'
+import Lobby from "./Lobby";
 
-const GameEntry = () => {
+const Playground = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     const tabTitles = ["Quick Playing", "Lobby", "Correspondence"];
 
     const tabContent = [
-        <div key="tab2" className="p-4">Content for Tab 1</div>,
-        <div key="tab2" className="p-4">Content for Tab 2</div>,
-        <div key="tab3" className="p-4">Content for Tab 3</div>
+        <ModeSelect />,
+        <Lobby />,
     ];
 
     return (
-        <div className="w-full max-w-[600px] mx-auto">
+        <div className="playground w-full max-w-[600px] mx-auto mt-5">
             <div className="flex space-x-20 justify-center">
                 {tabTitles.map((title, index) => (
                     <button
@@ -28,7 +30,7 @@ const GameEntry = () => {
                     </button>
                 ))}
             </div>
-            <div className="mt-4">
+            <div className="playground-content mt-4">
                 {tabContent[activeTab]}
             </div>
         </div>
@@ -36,4 +38,4 @@ const GameEntry = () => {
 };
 
 
-export default GameEntry
+export default Playground
